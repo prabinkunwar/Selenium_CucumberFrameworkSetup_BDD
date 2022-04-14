@@ -12,9 +12,9 @@ import cucumber.api.junit.Cucumber;
 		glue = "steps",
 //		tags = "@TF_login2, @Other_Login1",
 //		tags = "@smoke",
-		tags = "@TF_LoginFeature",
 //		tags = "@TF_login1",
 //		tags = "@Login_Test_Regression",
+		tags = "@Other_Login1",
 		monochrome = true,
 		dryRun = false,
 		plugin = {

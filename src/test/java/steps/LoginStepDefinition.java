@@ -1,7 +1,6 @@
 package steps;
 
 import org.openqa.selenium.support.PageFactory;
-
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -44,6 +43,7 @@ public class LoginStepDefinition extends TestBase {
 	@Then("^User should land on dashboard page$")
 	public void user_should_land_on_dashboard_page() {
 		Assert.assertEquals("Dashboard- iBilling", loginPage.getPageTitle());
+		takeScreenshot(driver);
 	}
 
 	@After
